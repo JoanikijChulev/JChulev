@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>J Chulev</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/linea.css" />
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Inline Overrides -->
+    <style>
+      /* Global background, font, and link settings */
+      body,
+      html {
+        background: #000000 !important;
+        font-family: "Times New Roman", Times, serif !important;
+        font-style: normal !important;
+      }
+      * {
+        font-style: normal !important;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+      /* Intro Section overrides */
+      .intro-text h1 {
+        font-weight: 300;
+      }
+      .intro-text p {
+        font-size: 22px;
+      }
+      /* Contact Info Icon and Text Sizing */
+      .contact-info a {
+        display: block;
+        color: inherit;
+        text-decoration: none;
+        margin-bottom: 10px;
+      }
+      .contact-info a:hover {
+        color: #ffffffaf;
+      }
+      .contact-info a i {
+        font-size: 40px;
+        margin-right: 15px;
+      }
+      .contact-info a span {
+        font-size: 20px;
+      }
+      /* Portfolio Filters - add black lines between buttons */
+      .portfolio-filters li {
+        border-right: 1px solid #000;
+        padding-right: 10px;
+        margin-right: 10px;
+      }
+      .portfolio-filters li:last-child {
+        border-right: none;
+      }
+      /* Portfolio Items: Ensure images fill their container */
+      .portfolio-items .inner img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .portfolio-items .inner .overlay {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .portfolio-items .inner:hover .overlay {
+        opacity: 1;
+      }
+      .portfolio-items .inner .overlay span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 18px;
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+
+    <div class="main-content">
+      <!-- Page Borders -->
+      <div class="page-border border-left"></div>
+      <div class="page-border border-right"></div>
+      <div class="page-border border-top"></div>
+      <div class="page-border border-bottom"></div>
+
+      <!-- Menu Button -->
+      <a href="#" class="menu-btn">
+        <span class="lines">
+          <span class="l1"></span>
+          <span class="l2"></span>
+          <span class="l3"></span>
+        </span>
+      </a>
+
+      <!-- Menu -->
+      <div class="menu">
+        <div class="inner">
+          <ul class="menu-items">
+            <li>
+              <a href="#" class="section-toggle" data-section="intro">Main</a>
+            </li>
+            <li>
+              <a href="#about" class="section-toggle" data-section="about">Data</a>
+            </li>
+            <li>
+              <a href="#resume" class="section-toggle" data-section="resume">Resume</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="section-toggle" data-section="portfolio">Work &amp; Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="section-toggle" data-section="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="animation-block"></div>
+
+      <!-- Sections -->
+      <div class="sections">
+        <!-- Main Section -->
+        <section id="intro" class="section section-main active">
+          <div class="container-fluid">
+            <div class="v-align">
+              <div class="inner">
+                <div class="intro-text">
+                  <h1>Chulev</h1>
+                  <p>Joanikij</p>
+                  <div class="intro-btns">
+                    <a href="#about" class="btn-custom section-toggle" data-section="about">Data</a>
+                    <a href="#contact" class="btn-custom section-toggle" data-section="contact">Contact</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section border-d">
+          <div class="section-block about-block">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>
+                  I'm an aspiring, proficient &amp; passionate
+                  <strong class="color">Engineer</strong>
+                </h2>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <ul class="info-list">
+                    <li>
+                      <strong>Name:</strong>
+                      <span>Joanikij Chulev</span>
+                    </li>
+                    <li>
+                      <strong>Job:</strong>
+                      <span>Postgrad Student &amp; Self-Work</span>
+                    </li>
+                    <li>
+                      <strong>Age:</strong>
+                      <span>23 Years</span>
+                    </li>
+                    <li>
+                      <strong>Temporary Residence:</strong>
+                      <span>Tirana, Albania</span>
+                    </li>
+                    <li>
+                      <strong>Hometown:</strong>
+                      <span>Skopje, Macedonia</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-8">
+                  <div class="about-text">
+                    <p>
+                      I am Chulev—a multidisciplinary aspiring engineer, data scientist, and problem-solver who thrives on projects that sit at the intersection of software, electronics, and advanced mathematics. My background spans a wide range of domains, from machine learning and audio data analysis to designing integrated electronic systems, simulating complex fluid dynamics, and leveraging cutting-edge tools for precise engineering work. I earned my Bachelor of Science in Computer Science with a focus on AI and Data Science from 
+                      <a href="https://www.uu.nl/en" target="_blank"><u><strong class="color">Utrecht University</strong></u></a> and minored in Mathematics, and I'm currently pursuing a 
+                      <a href="https://emsse.eu/" target="_blank"><u><strong class="color">Master of Engineering in Systems of Systems Engineering (Erasmus Mundus Master - EMSSE)</strong></u></a>.
+                    </p>                            
+                    <p>
+                      In the realm of machine learning, I have leveraged numerous techniques, including supervised/unsupervised learning, deep neural networks, GANs, CNNs, RNNs, reinforcement learning, the modern double deep Q learning and computer vision algorithms to tackle real-world data problems. My focus on audio data has involved signal processing tasks—isolating patterns within sound, optimizing feature extraction, and fine-tuning neural architectures for robust and adaptable models. I’ve also worked extensively with electronic hardware, designing op-amp circuits, signal conditioning modules, and advanced filters using simulation software like LTSpice to ensure reliability and performance.
+                    </p>
+                    <p>
+                      On the software development front, I have a strong background in programming across multiple languages and platforms. I have developed applications ranging from web and desktop solutions to custom software for data processing and automation. Python is one of my primary tools—its versatility in data analysis, machine learning, and general-purpose programming has been central to many of my projects. Whether I’m scripting automation tasks, building robust backend systems, or experimenting with innovative AI algorithms, I leverage Python’s rich ecosystem to transform ideas into reality.
+                    </p>
+                    <p>
+                      A significant part of my skill set lies in the modeling and analysis of logical and sometimes physical systems. My experience with ANSYS and Computational Fluid Dynamics has allowed me to investigate fluid flows, turbulence models, and solid-structure interactions. Coupled with proficiency in AutoCAD, I can not only simulate but also propose schematics and models for practical engineering problems.
+                    </p>
+                    <p>
+                      Whether I’m analyzing data in Python, R or even SPSS, designing circuit boards in LTSpice, decoding puzzles, or phenomena through differential equations and problem modeling, I continually rely on my strong mathematical and logical foundation—because,<strong class="color"> in the end, everything is math</strong>. Combining this core principle with modern technology, I bridge the gap between theoretical insight and hands-on implementation, consistently delivering innovative solutions that span hardware, software, and data-focused disciplines.
+                    </p>
+                  </div>
+                  <div class="about-btns">
+                    <a
+                      href="JOANIKIJ CHULEV EUROPASS CV.pdf"
+                      class="btn-custom btn-color"
+                      download
+                      id="downloadResume"
+                      >Download Resume</a
+                    >
+                    <a
+                      href="#contact"
+                      class="btn-custom btn-color section-toggle"
+                      data-section="contact"
+                      >Hire Me</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- My Services Block -->
+          <div class="section-block services-block">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>My <strong class="color">Knowledge</strong></h2>
+              </div>
+              <div class="row">
+                <!-- AI/ML -->
+                <div class="col-md-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="ion-ios-analytics-outline"></i>
+                    </div>
+                    <div class="content">
+                      <h4>AI/ML</h4>
+                      <p>
+                        I develop predictive models and intelligent systems by leveraging artificial intelligence and machine learning technologies. My services include CV problems, data preprocessing, model selection, and deployment strategies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Data Science -->
+                <div class="col-md-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="ion-ios-pulse-strong"></i>
+                    </div>
+                    <div class="content">
+                      <h4>Data Science</h4>
+                      <p>
+                        I transform raw data into actionable insights using advanced statistical analysis, ML methods, and visualization techniques to help you make data-driven decisions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Programming -->
+                <div class="col-md-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="icon-basic-keyboard"></i>
+                    </div>
+                    <div class="content">
+                      <h4>Programming</h4>
+                      <p>
+                        I build efficient, scalable software solutions across web, mobile, and custom systems using a variety of programming languages and frameworks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Electronics & Integrated Devices -->
+                <div class="col-md-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="ion-ios-gear-outline"></i>
+                    </div>
+                    <div class="content">
+                      <h4>Electronics &amp; Integrated Devices</h4>
+                      <p>
+                        I design and integrate modern electronic systems and wireless devices—from circuit design to embedded programming with Arduino/C++—to create innovative solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- DJing & Music Production -->
+                <div class="col-md-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="ion-ios-musical-notes" style="font-size: 64px;"></i>
+                    </div>
+                    <div class="content">
+                      <h4>DJing &amp; Music Production</h4>
+                      <p>
+                        I provide high-quality DJing and music production services, including live set mixing, track production, audio mixing, and mastering, to deliver professional soundscapes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fitness, Nutrition & Lifting Coaching -->
+                <div class="col-md-4">
+                  <div class="service">
+                    <div class="icon">
+                      <i class="ion-ios-body-outline"></i>
+                    </div>
+                    <div class="content">
+                      <h4>Fitness, Nutrition &amp; Lifting Coaching</h4>
+                      <p>
+                        I offer personalized training and nutrition plans tailored to help you build muscle, boost endurance, and achieve overall fitness goals with practical and scientifically backed strategies.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section resume-section border-d">
+          <!-- Education Timeline Block -->
+          <div class="section-block timeline-block">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>My <strong class="color">Education</strong></h2>
+              </div>
+              <ul class="timeline">
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://www.upt.edu.al/" target="_blank">
+                        Universiteti Politeknik i Tiranës
+                      </a>
+                    </h4>
+                    <em>
+                      <span>Master of Engineering - MEng, Systems of Systems Engineering</span>
+                      <span>Feb 2025 - Jul 2025</span>
+                    </em>
+                    <p>
+                      Pursuing a Master of Engineering in Systems of Systems Engineering with an emphasis on innovative interdisciplinary integration.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://www.upc.edu/" target="_blank">
+                        Universitat Politècnica de Catalunya
+                      </a>
+                    </h4>
+                    <em>
+                      <span>Master of Engineering - MEng, Systems of Systems Engineering</span>
+                      <span>Aug 2024 - Jan 2025</span>
+                    </em>
+                    <p>
+                      Specializing in Systems of Systems Engineering while exploring advanced methodologies in complex system design.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://www.uu.nl/" target="_blank">
+                        Utrecht University
+                      </a>
+                    </h4>
+                    <em>
+                      <span>Bachelor of Science - BS, Computer Science - AI &amp; Data Science</span>
+                      <span>Sep 2021 - Jun 2024</span>
+                    </em>
+                    <p>
+                      Studied Computer Science with a focus on AI and Data Science, and minored in Mathematics.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://www.m3dsacademy.com/" target="_blank">
+                        M3DS Academy
+                      </a>
+                    </h4>
+                    <em>
+                      <span>3D Design &amp; Programming</span>
+                      <span>Sep 2019 - Sep 2020</span>
+                    </em>
+                    <p>
+                      Completed an intensive program in 3D design and programming, mastering digital modeling and interactive development.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience Timeline Block -->
+          <div class="section-block timeline-block">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>My <strong class="color">Experience</strong></h2>
+              </div>
+              <ul class="timeline">
+                <!-- AI Project “ATLAS” Contributor -->
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://sols.mk/home" target="_blank">
+                        AI Project “ATLAS” Contributor
+                      </a>
+                    </h4>
+                    <em>
+                      <span>Sols - Digital Solutions (Full-time)</span>
+                      <span>Jun 2023 - Jan 2024 (8 months)</span>
+                    </em>
+                    <p>
+                      Contributed to the AI project “ATLAS” in North Macedonia (Hybrid). Responsibilities included cleaning and optimizing datasets, annotating data, providing feedback, and researching language models.
+                    </p>
+                  </div>
+                </li>
+                <!-- BI/DWH Project Assistant -->
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://www.intecsystem.com/" target="_blank">
+                        BI/DWH Project Assistant
+                      </a>
+                    </h4>
+                    <em>
+                      <span>InTec System (Full-time)</span>
+                      <span>Jan 2023 - Nov 2023 (11 months)</span>
+                    </em>
+                    <p>
+                      Reviewed and analyzed BI/DWH systems at Sparkasse Bank; tasks included data integration, modeling, and quality control.
+                    </p>
+                  </div>
+                </li>
+                <!-- Research Assistant -->
+                <li>
+                  <div class="timeline-content">
+                    <h4>Research Assistant</h4>
+                    <em>
+                      <span>University College Roosevelt (Part-time)</span>
+                      <span>Feb 2022 - Jun 2022 (5 months)</span>
+                    </em>
+                    <p>
+                      Collected, analyzed, and visualized data for the university's alumni survey.
+                    </p>
+                  </div>
+                </li>
+                <!-- Data Team Member -->
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://www.ucr.nl/" target="_blank">
+                        Data Team Member
+                      </a>
+                    </h4>
+                    <em>
+                      <span>University College Roosevelt (Full-time)</span>
+                      <span>May 2022 - Jun 2024 (2 years 2 months)</span>
+                    </em>
+                    <p>
+                      Engaged in data science activities including practical skills, problem solving, literature discussion, lectures, AI/ML conference attendance, and ML hackathons. Participated in JRCZ DataFest 2023 and 2024.
+                    </p>
+                  </div>
+                </li>
+                <!-- Night Manager -->
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://www.valkexclusief.nl/" target="_blank">
+                        Night Manager
+                      </a>
+                    </h4>
+                    <em>
+                      <span>Van der Valk Exclusief (Part-time)</span>
+                      <span>Sep 2022 - Jun 2024 (1 year 10 months)</span>
+                    </em>
+                    <p>
+                      Managed night operations and ensured quality service in Middelburg, Zeeland, Netherlands.
+                    </p>
+                  </div>
+                </li>
+                <!-- Fitness Instructor -->
+                <li>
+                  <div class="timeline-content">
+                    <h4>
+                      <a href="https://synergyfitness.com.mk/en/home/" target="_blank">
+                        Fitness Instructor
+                      </a>
+                    </h4>
+                    <em>
+                      <span>Synergy Fitness &amp; Spa (Full-time)</span>
+                      <span>Nov 2020 - Jul 2021 (9 months)</span>
+                    </em>
+                    <p>
+                      Provided tailored fitness training and nutrition coaching to help clients achieve their health and performance goals.
+                    </p>
+                  </div>
+                </li>
+                <!-- Disk Jockey / Music Producer -->
+                <li>
+                  <div class="timeline-content">
+                    <h4>Disk Jockey / Music Producer</h4>
+                    <em>
+                      <span>Freelance</span>
+                      <span>Jan 2021 - Present (4 years 2 months)</span>
+                    </em>
+                    <p>
+                      Specializing in DJing, Rekordbox, music remixing, music editing, Serato, Virtual DJ, FL Studio, audio mixing, and audio mastering.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Removed My Clients block -->
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section portfolio-section border-d">
+          <div class="section-block portfolio-block">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>My <strong class="color">Works</strong></h2>
+              </div>
+              <ul class="portfolio-filters">
+                <li>
+                  <a href="#" class="active" data-group="all">All</a>
+                </li>
+                <li>
+                  <a href="#" data-group="projects">My Projects</a>
+                </li>
+                <li>
+                  <a href="#" data-group="papers">My Papers</a>
+                </li>
+                <li>
+                  <a href="#" data-group="scholarly">Interesting Scholarly Articles/Academia</a>
+                </li>
+                <li>
+                  <a href="#" data-group="djsets">My DJ Sets &amp; Music</a>
+                </li>
+              </ul>
+              <ul class="portfolio-items">
+                <!-- Existing sample item (optional) – you can remove if you want -->
+                <!--
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://example.com/project1" target="_blank">
+                      <img src="img/portfolio/my-projects1.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                -->
+                <!-- My Projects: Add 7 items total -->
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://github.com/JoanikijChulev/AI-Instrument-Classification" target="_blank">
+                      <img src="img/portfolio/my-projects.jpg" alt />
+                      <div class="overlay">
+                        <span> AI-Instrument-Classification</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://github.com/JoanikijChulev/Deep-Reinforcement-Learning-Agents-DDQN" target="_blank">
+                      <img src="img/portfolio/my-projects.jpg" alt />
+                      <div class="overlay">
+                        <span>Deep-Reinforcement-Learning-Agents-DDQN</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://github.com/JoanikijChulev/Finger-Inverse-Kinematics-Robotics" target="_blank">
+                      <img src="img/portfolio/my-projects.jpg" alt />
+                      <div class="overlay">
+                        <span> Finger-Inverse-Kinematics-Robotics</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://example.com/project4" target="_blank">
+                      <img src="img/portfolio/my-projects.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://example.com/project5" target="_blank">
+                      <img src="img/portfolio/my-projects.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://example.com/project6" target="_blank">
+                      <img src="img/portfolio/my-projects.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["projects"]'>
+                  <div class="inner">
+                    <a href="https://example.com/project7" target="_blank">
+                      <img src="img/portfolio/my-projects.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <!-- My Papers: Add 2 items -->
+                <li data-groups='["papers"]'>
+                  <div class="inner">
+                    <a href="https://example.com/paper1" target="_blank">
+                      <img src="img/portfolio/my-papers.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["papers"]'>
+                  <div class="inner">
+                    <a href="https://example.com/paper2" target="_blank">
+                      <img src="img/portfolio/my-papers.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <!-- Scholarly Articles/Academia: Add 5 items -->
+                <li data-groups='["scholarly"]'>
+                  <div class="inner">
+                    <a href="https://example.com/scholarly1" target="_blank">
+                      <img src="img/portfolio/academia.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["scholarly"]'>
+                  <div class="inner">
+                    <a href="https://example.com/scholarly2" target="_blank">
+                      <img src="img/portfolio/academia.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["scholarly"]'>
+                  <div class="inner">
+                    <a href="https://example.com/scholarly3" target="_blank">
+                      <img src="img/portfolio/academia.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["scholarly"]'>
+                  <div class="inner">
+                    <a href="https://example.com/scholarly4" target="_blank">
+                      <img src="img/portfolio/academia.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["scholarly"]'>
+                  <div class="inner">
+                    <a href="https://example.com/scholarly5" target="_blank">
+                      <img src="img/portfolio/academia.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <!-- My DJ Sets & Music: Add 9 items -->
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj1" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj2" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj3" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj4" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj5" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj6" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj7" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj8" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li data-groups='["djsets"]'>
+                  <div class="inner">
+                    <a href="https://example.com/dj9" target="_blank">
+                      <img src="img/portfolio/music.jpg" alt />
+                      <div class="overlay">
+                        <span>View</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section border-d">
+          <div class="section-block contact-block">
+            <div class="container-fluid">
+              <div class="section-header">
+                <h2>Contact <strong class="color">Me</strong></h2>
+              </div>
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="contact-form">
+                    <!-- Updated Contact Form using Web3Forms with zero-config hCAPTCHA -->
+                    <form method="POST" id="form" action="https://api.web3forms.com/submit">
+                      <input type="hidden" name="access_key" value="e7d53b2f-055e-4f5d-a059-cb3cf5988e4e" />
+                      <input type="checkbox" name="botcheck" style="display: none;" />
+
+                      <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+                      </div>
+                      <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+                      </div>
+                      <!-- Visible Subject box -->
+                      <div class="form-group">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required />
+                      </div>
+                      <div class="form-group">
+                        <input type="tel" name="phone" class="form-control" placeholder="Phone" pattern="^\+?[0-9\s\-]{7,15}$" title="Please enter a valid phone number!" required />
+                      </div>
+                      <div class="form-group">
+                        <textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea>
+                      </div>
+                      <!-- hCAPTCHA widget -->
+                      <div class="form-group">
+                        <div class="h-captcha" data-captcha="true"></div>
+                      </div>
+                      <div class="form-group text-center">
+                        <button type="submit" class="btn-custom btn-color">Submit</button>
+                      </div>
+                      <div id="result"></div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="contact-info-icons">
+                    <!-- Telephone Info Block -->
+                    <div class="contact-info">
+                      <a href="tel:+38975235603">
+                        <i class="ion-ios-telephone-outline"></i>
+                        <span>Macedonia: 075-235-603</span>
+                      </a>
+                      <a href="tel:+31617187398">
+                        <i class="ion-ios-telephone-outline"></i>
+                        <span>Netherlands: (0)617-187-398</span>
+                      </a>
+                      <a href="tel:+34623417244">
+                        <i class="ion-ios-telephone-outline"></i>
+                        <span>Spain: (0)623-417-244</span>
+                      </a>
+                      <a href="#">
+                        <i class="ion-ios-telephone-outline"></i>
+                        <span>Albania: TBD</span>
+                      </a>
+                      <a href="#">
+                        <i class="ion-ios-telephone-outline"></i>
+                        <span>Italy: TBD</span>
+                      </a>
+                    </div>
+                    <!-- Instagram -->
+                    <div class="contact-info">
+                      <a href="https://www.instagram.com/yo._niki?igsh=cnhhZ3c3enMycm5v&utm_source=qr" target="_blank">
+                        <i class="ion-social-instagram-outline"></i>
+                        <span>Instagram</span>
+                      </a>
+                    </div>
+                    <!-- GitHub -->
+                    <div class="contact-info">
+                      <a href="https://github.com/JoanikijChulev" target="_blank">
+                        <i class="ion-social-github"></i>
+                        <span>GitHub</span>
+                      </a>
+                    </div>
+                    <!-- LinkedIn -->
+                    <div class="contact-info">
+                      <a href="https://www.linkedin.com/in/joanikij-chulev-a55a74334" target="_blank">
+                        <i class="ion-social-linkedin-outline"></i>
+                        <span>LinkedIn</span>
+                      </a>
+                    </div>
+                    <!-- WhatsApp -->
+                    <div class="contact-info">
+                      <a href="https://wa.me/38975235603" target="_blank">
+                        <i class="ion-social-whatsapp-outline"></i>
+                        <span>WhatsApp</span>
+                      </a>
+                    </div>
+                    <!-- YouTube -->
+                    <div class="contact-info">
+                      <a href="https://youtube.com/@niki-jc3gu?si=BX3BQzGjhStOZMJ7" target="_blank">
+                        <i class="ion-social-youtube"></i>
+                        <span>YouTube</span>
+                      </a>
+                    </div>
+                    <!-- Google Scholar -->
+                    <div class="contact-info">
+                      <a href="https://scholar.google.com/citations?user=qC0bn88AAAAJ&hl=en" target="_blank">
+                        <i class="ion-social-googleplus-outline"></i>
+                        <span>Google Scholar</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Web3Forms hCaptcha Script -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+    <!-- Client Side Validation for hCaptcha -->
+    <script>
+      const form = document.getElementById("form");
+      form.addEventListener("submit", function (e) {
+        const hCaptchaResponse = form.querySelector('textarea[name="h-captcha-response"]')?.value;
+        if (!hCaptchaResponse) {
+          e.preventDefault();
+          alert("Please fill out the captcha field");
+        }
+      });
+    </script>
+
+    <!-- Prevent spamming of the Download Resume button -->
+    <script>
+      $(document).ready(function () {
+        $("#downloadResume").on("click", function (e) {
+          var $btn = $(this);
+          if ($btn.data("disabled")) {
+            e.preventDefault();
+            return false;
+          }
+          $btn.data("disabled", true);
+          $btn.css({
+            "pointer-events": "none",
+            opacity: "0.5",
+          });
+          setTimeout(function () {
+            $btn.data("disabled", false);
+            $btn.css({
+              "pointer-events": "auto",
+              opacity: "1",
+            });
+          }, 1500);
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function(){
+        if ($(window).width() < 768) {
+          $('.menu-btn').click(function(e){
+            e.stopPropagation(); // Prevent the click from bubbling up to the document
+            e.preventDefault();
+            var menu = $('.menu');
+            if (menu.width() > 0) {
+              menu.css('width', '0');
+            } else {
+              menu.css('width', '300px');
+            }
+          });
+          
+          $('.menu-items a').click(function(e){
+            e.stopPropagation();
+            $('.menu').css('width', '0');
+          });
+          
+          // Close the menu if the user clicks outside the menu and menu button
+          $(document).click(function(e) {
+            if (!$(e.target).closest('.menu').length && !$(e.target).closest('.menu-btn').length) {
+              $('.menu').css('width', '0');
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
